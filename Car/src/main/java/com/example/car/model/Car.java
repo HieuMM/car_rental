@@ -21,6 +21,11 @@ public class Car {
     private String brand;
     private int year;
     private String description;
+    @Lob
+    @Column(name = "image")
+    private byte[] image;
+    private int pricePerDay;
     private double rentalPrice;
     private boolean isRented;
+
 }

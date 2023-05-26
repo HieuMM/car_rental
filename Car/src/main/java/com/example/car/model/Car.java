@@ -27,5 +27,6 @@ public class Car {
     private int pricePerDay;
     private double rentalPrice;
     private boolean isRented;
+    private boolean isDelete;
 
 }

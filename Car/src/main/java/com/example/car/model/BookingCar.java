@@ -30,4 +30,6 @@ public class BookingCar {
     private User user;
 
     // Constructors, getters, and setters
+    private boolean status;
+
 }

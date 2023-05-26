@@ -22,4 +22,6 @@ public class User {
     private List<BookingCar> bookings ;
 
     // Constructors, getters, and setters
+    private boolean status;
+
 }

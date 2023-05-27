@@ -19,7 +19,11 @@ public class BookingCarController {
     public BookingCarController(BookingCarService bookingCarService) {
         this.bookingCarService = bookingCarService;
     }
+    @GetMapping("/home")
+    public String showform(){
 
+        return "index";
+    }
     @GetMapping
     public ResponseEntity<List<BookingCar>> getAllBookings() {
         List<BookingCar> bookings = bookingCarService.getAll();
